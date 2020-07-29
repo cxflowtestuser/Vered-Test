@@ -2,7 +2,7 @@
     "additionalProperties": {
         "cxFlow": {
 	    "vulnerabilityScanners": ["sca"],
-	    "bugTracker": "GitHub"
+	    "bugTracker": "Jira"
         }
     }
 }

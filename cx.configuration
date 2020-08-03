@@ -1,8 +1,23 @@
 {
     "additionalProperties": {
         "cxFlow": {
-	    "vulnerabilityScanners": ["sca"],
-	    "bugTracker": "Jira"
+            "filters": {
+                "severity": ["High", "Medium"]
+            },
+            "thresholds": {
+                "MEDIUM": 14,
+                "LOW": 15
+            },
+            "bugTracker": "GitHub",
+			"vulnerabilityScanners": ["sca", "sast"]
         }
-    }
+    },
+	"sca": {
+		"appUrl": "https://sca.scacheckmarx.com",
+		"apiUrl": "https://api.scacheckmarx.com",
+		"accessControlUrl": "https://platform.checkmarx.net",
+		"tenant": "cxflow",
+		"filterSeverity": ["high", "medium", "low"],
+		"filterScore": 7.5
+	}
 }

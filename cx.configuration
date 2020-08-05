@@ -8,7 +8,7 @@
                 "MEDIUM": 14,
                 "LOW": 15
             },
-            "bugTracker": "GitHub",
+            "bugTracker": "JIRA",
 			"vulnerabilityScanners": ["sca"]
         }
     },

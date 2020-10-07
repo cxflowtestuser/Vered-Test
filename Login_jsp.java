@@ -111,7 +111,10 @@ public class Login_jsp extends HttpJspBase {
   java.sql.Connection cn() throws java.sql.SQLException {
     return java.sql.DriverManager.getConnection(strConn , DBusername, DBpassword);
   }
-
+  
+  java.sql.Connection cn1() throws java.sql.SQLException {
+    return java.sql.DriverManager.getConnection(strConn , DBusername, "123");
+  }
   String toURL(String strValue){
     if ( strValue == null ) return "";
     if ( strValue.compareTo("") == 0 ) return "";

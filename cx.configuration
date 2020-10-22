@@ -19,7 +19,7 @@
 		"tenant": "cxflow",
 		"thresholdsSeverity": {
 			"HIGH": 10,
-			"MEDIUM": 6,
+			"MEDIUM": 7,
 			"LOW": 3
 		},
 		"thresholdsScore": 8.5,

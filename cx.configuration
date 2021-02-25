@@ -24,6 +24,7 @@
 		},
 		"thresholdsScore": 8.5,
 		"filterSeverity": ["high", "medium", "low"],
-		"filterScore": 7.5
+		"filterScore": 7.5,
+		"teamForNewProjects": "/CxServer/MyTeam/SubTeam"
 	}
 }

@@ -13,6 +13,7 @@
         }
     },
 	"sca": {
-		"appUrl": "https://test.example.com"
+		"appUrl": "https://test.example.com",
+		"team": "my-test-team"
 	}
 }
